@@ -27,12 +27,7 @@ app.get('/webhook', (req, res) => {
   res.status(200).json({ challengeResponse });
 });
 
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
-});
 
-
-// Start the server
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
