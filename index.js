@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000;
 // Replace these with your real values:
 const VERIFICATION_TOKEN = "TheCardNation_Ebay_Tracker_Token_2025_ABC987";
 
-const ENDPOINT_URL = "https://ebay-webhook.onrender.com/webhook";
+const ENDPOINT_URL = "https://ebay-webhook-omyt.onrender.com/webhook";
 
 app.get('/webhook', (req, res) => {
   const challengeCode = req.query.challenge_code;
