@@ -6,7 +6,8 @@ const port = process.env.PORT || 3000;
 
 // Replace these with your real values:
 const VERIFICATION_TOKEN = "SecureToken_ebayWebhook_12345678901234567890";
-const ENDPOINT_URL = "const ENDPOINT_URL = "https://placeholder.com/webhook";
+const ENDPOINT_URL = "https://ebay-webhook.onrender.com/webhook";
+";
 ";
 
 app.get('/webhook', (req, res) => {
